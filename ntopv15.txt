@@ -1,0 +1,3 @@
+LOAD XML LOCAL INFILE '/home/mysqlv10/Downloads/ntopv15.xml' INTO TABLE ntopv15 ROWS IDENTIFIED BY '<host-information>';
+
+
