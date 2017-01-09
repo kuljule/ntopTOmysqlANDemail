@@ -29,7 +29,7 @@ $result = $mysqli->query($query);
 
 /* If you get a result and the result gives at least 1 row then do the following. */
 if($result && $result->num_rows>=1) {
-    /* fetch the associated row and if the same mac address shows up every 15 minutes 3 times then add the descr, mac_address, and bandwidth values to the message. */
+    /* fetch the associated row and if the same mac address shows up for 15 minutes, then add the descr, mac_address, and bandwidth values to the message. */
     $futMAC = NULL;
     $futDATE = NULL;
     $a = 1;
